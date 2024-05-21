@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Busqueda de pagina de la udea. Como estudiante requiero buscar la pagina oficial de udea para navegar en sitio" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-21T00:08:32" hostname="DESKTOP-B7230DH" time="50.827">
+  <properties/>
+  <testcase name="busqueda sobre el motor de google del sitio oficial" classname="Busqueda de pagina de la udea. Como estudiante requiero buscar la pagina oficial de udea para navegar en sitio" time="50.827"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[may 20, 2024 7:09:04 P.?M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 120; Please update to a Selenium version that supports CDP version 124
+]]></system-err>
+</testsuite>
