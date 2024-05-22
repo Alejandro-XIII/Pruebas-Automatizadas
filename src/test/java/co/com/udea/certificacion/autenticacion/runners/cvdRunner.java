@@ -6,8 +6,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = "src/test/resources/features/buscar_pagina_udea.feature",
+        features = "src/test/resources/features/crearVueloDirecto.feature",
         glue = "co.com.udea.certificacion.autenticacion.stepdefinitions",
-        snippets = CucumberOptions.SnippetType.CAMELCASE
+        snippets = CucumberOptions.SnippetType.CAMELCASE,
+        plugin = "pretty"
 )
-public class FindOutUdeARunner {}
+
+public class cvdRunner { }

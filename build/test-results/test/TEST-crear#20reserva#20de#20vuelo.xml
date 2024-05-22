@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="crear reserva de vuelo" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-22T22:40:46" hostname="WEIMAR-QUINTERO" time="0.674">
+  <properties/>
+  <testcase name="crear reserva" classname="crear reserva de vuelo" time="0.674"/>
+  <system-out><![CDATA[
+Scenario: crear reserva                     ?[90m# src/test/resources/features/crear_reserva.feature:3?[0m
+  ?[32mGiven ?[0m?[32mI enter to site?[0m                     ?[90m# co.com.udea.certificacion.autenticacion.stepdefinitions.createReservedStepDefinition.iEnterToSite()?[0m
+  ?[32mWhen ?[0m?[32mI send the information about the fly?[0m ?[90m# co.com.udea.certificacion.autenticacion.stepdefinitions.createReservedStepDefinition.iSendTheInformationAboutTheFly()?[0m
+  ?[32mThen ?[0m?[32mI can see the message ok?[0m             ?[90m# co.com.udea.certificacion.autenticacion.stepdefinitions.createReservedStepDefinition.iCanSeeTheMessageOk()?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

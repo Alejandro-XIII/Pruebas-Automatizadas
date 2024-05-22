@@ -7,15 +7,14 @@ import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 import org.openqa.selenium.Keys;
 
-import static co.com.udea.certificacion.autenticacion.userinterfaces.HomePage.INPUT_TEXT;
-import static co.com.udea.certificacion.autenticacion.userinterfaces.HomePage.LINK_TO_UDEA_HOMEPAGE;
+import static co.com.udea.certificacion.autenticacion.userinterfaces.HomePage.*;
 
 public class wordToSearch implements Interaction {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
-        actor.attemptsTo(Enter.theValue("U de A").into(INPUT_TEXT).thenHit(Keys.RETURN));
-        actor.attemptsTo(Click.on(LINK_TO_UDEA_HOMEPAGE));
+        actor.attemptsTo(Enter.theValue("SA-7986").into(INPUT_TEXT).thenHit(Keys.RETURN));
+        actor.attemptsTo(Click.on(CLICK_BOTON_CREAR));
     }
 
     public static wordToSearch inTextArea(){
