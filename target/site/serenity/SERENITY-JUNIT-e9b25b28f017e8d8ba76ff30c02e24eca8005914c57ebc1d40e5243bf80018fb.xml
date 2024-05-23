@@ -2,14 +2,16 @@
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.16.1', revision: '9b4c83354e'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
-Driver info: driver.version: RemoteWebDriver</error><system-err>Unable to find element with locator By.xpath: //*[@name='q']
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
-Driver info: driver.version: RemoteWebDriver&#13;
-co.com.udea.certificacion.autenticacion.interactions.wordToSearch.performAs(wordToSearch.java:17)&#13;
-co.com.udea.certificacion.autenticacion.tasks.FindThe.performAs(FindThe.java:11)&#13;
-co.com.udea.certificacion.autenticacion.stepdefinitions.FindOutStepDefinition.digiteLaPalabraClave(FindOutStepDefinition.java:46)&#13;
-worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
-worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
+Driver info: driver.version: RemoteWebDriver</error><system-err>Unable to find element with locator By.xpath:
+    //*[@name='q']
+    For documentation on this error, please visit:
+    https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+    Build info: version: '4.16.1', revision: '9b4c83354e'
+    System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+    Driver info: driver.version: RemoteWebDriver&#13;
+    co.com.udea.certificacion.gestion.interactions.wordToSearch.performAs(wordToSearch.java:17)&#13;
+    co.com.udea.certificacion.gestion.tasks.FindThe.performAs(FindThe.java:11)&#13;
+    co.com.udea.certificacion.gestion.stepdefinitions.FindOutStepDefinition.digiteLaPalabraClave(FindOutStepDefinition.java:46)&#13;
+    worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
+    worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
 </system-err></testcase></testsuite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="crear un vuelo directo." tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-23T22:44:00" hostname="DESKTOP-B7230DH" time="12.682">
+  <properties/>
+  <testcase name="carga de formulario exitosa" classname="crear un vuelo directo." time="12.682"/>
+  <system-out><![CDATA[
+Scenario: carga de formulario exitosa                                             ?[90m# src/test/resources/features/crearVueloDirecto.feature:9?[0m
+  ?[32mGiven ?[0m?[32mel usuario tenga sesion iniciada con rol de administrador de la aerolinea?[0m ?[90m# co.com.udea.certificacion.gestion.stepdefinitions.cvdStepDefinition.elUsuarioConRolAdmin()?[0m
+  ?[32mWhen ?[0m?[32melige la opcion de nuevo vuelo directo?[0m                                     ?[90m# co.com.udea.certificacion.gestion.stepdefinitions.cvdStepDefinition.nuevoVueloDirecto()?[0m
+  ?[32mThen ?[0m?[32mse carga el formulario de ingreso de datos basicos de un vuelo directo?[0m     ?[90m# co.com.udea.certificacion.gestion.stepdefinitions.cvdStepDefinition.cargaFormularioVueloDirecto()?[0m
+]]></system-out>
+  <system-err><![CDATA[may. 23, 2024 5:44:04 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 120; Please update to a Selenium version that supports CDP version 124
+]]></system-err>
+</testsuite>
