@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Check all flights." tests="1" skipped="0" failures="1" errors="0" timestamp="2024-05-25T21:48:48" hostname="DESKTOP-B7230DH" time="0.538">
+  <properties/>
+  <testcase name="Successful flight table visualization" classname="Check all flights." time="0.538">
+    <failure message="io.cucumber.junit.UndefinedStepException: The step 'The user is logged in with the role of airline administrator' and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;The user is logged in with the role of airline administrator&quot;)&#10;public void theUserIsLoggedInWithTheRoleOfAirlineAdministrator() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;selects the option to view all flights&quot;)&#10;public void selectsTheOptionToViewAllFlights() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;The table is loaded with all the created flights and their basic data&quot;)&#10;public void theTableIsLoadedWithAllTheCreatedFlightsAndTheirBasicData() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step 'The user is logged in with the role of airline administrator' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;The user is logged in with the role of airline administrator&quot;)
+public void theUserIsLoggedInWithTheRoleOfAirlineAdministrator() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;selects the option to view all flights&quot;)
+public void selectsTheOptionToViewAllFlights() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;The table is loaded with all the created flights and their basic data&quot;)
+public void theTableIsLoadedWithAllTheCreatedFlightsAndTheirBasicData() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</failure>
+  </testcase>
+  <system-out><![CDATA[
+Scenario: Successful flight table visualization                              ?[90m# src/test/resources/features/checkFlights.feature:9?[0m
+  ?[33mGiven ?[0m?[33mThe user is logged in with the role of airline administrator?[0m
+  ?[36mWhen ?[0m?[36mselects the option to view all flights?[0m
+  ?[36mThen ?[0m?[36mThe table is loaded with all the created flights and their basic data?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
