@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Delete flight" skipped="0" tests="1" time="0.26" timestamp="2024-05-25 04:36:40"><testcase name="Flight deletion successful"/></testsuite>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Delete flight" skipped="1" tests="1" time="0.33" timestamp="2024-05-25 05:15:21"><testcase name="Flight deletion successful"><skipped/></testcase></testsuite>

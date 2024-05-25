@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Delete flight" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-25T23:06:04" hostname="DESKTOP-B7230DH" time="8.845">
+  <properties/>
+  <testcase name="Flight deletion successful" classname="Delete flight" time="8.845"/>
+  <system-out><![CDATA[
+Scenario: Flight deletion successful                                            ?[90m# src/test/resources/features/deleteFlight.feature:9?[0m
+  ?[32mGiven ?[0m?[32mthe user is logged in with the role of airline administrator?[0m            ?[90m# co.com.udea.certificacion.gestion.stepdefinitions.deleteFlightStepDefinition.theUserIsLoggedInWithTheRoleOfAirlineAdministrator()?[0m
+  ?[32mWhen ?[0m?[32mSelects the option to delete the flight?[0m                                  ?[90m# co.com.udea.certificacion.gestion.stepdefinitions.deleteFlightStepDefinition.selectsTheOptionToDeleteTheFlight()?[0m
+  ?[32mThen ?[0m?[32mThe system displays a message to the user indicating successful deletion?[0m ?[90m# co.com.udea.certificacion.gestion.stepdefinitions.deleteFlightStepDefinition.theSystemDisplaysAMessageToTheUserIndicatingSuccessfulDeletion()?[0m
+]]></system-out>
+  <system-err><![CDATA[may. 25, 2024 6:06:07 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 125
+may. 25, 2024 6:06:07 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 125.0.6422.112. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+</testsuite>

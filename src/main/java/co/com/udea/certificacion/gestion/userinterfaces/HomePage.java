@@ -43,8 +43,8 @@ public class HomePage extends PageObject {
             .locatedBy("//*[@ name='destino']");
     public static final  Target MED_OPTION =Target.the("Option de Medellín")
             .locatedBy("//*[@ value='AEP']");
-    public static final  Target CREAR_VUELO_BUTTON =Target.the("botón para crear vuelo")
-            .locatedBy("//*[@type='submit']");
+    public static final  Target ELIMINAR_VUELO =Target.the("botón para eliminar vuelo")
+            .locatedBy("//html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[9]/td[4]/button[1]");
     //Buscar
     public static final  Target USER_ADMIN =Target.the("Verifica usuario administrador")
             .locatedBy("//*[@ class = 'font-semibold text-xl']");
@@ -52,7 +52,4 @@ public class HomePage extends PageObject {
             .locatedBy("//*[@ class='font-bold text-3xl']");
     public static final  Target MENSAJE_VERDE =Target.the("Mensaje de vuelo creado")
             .locatedBy("//*[@ class='bg-green-800 mb-3 p-3 rounded-md font-bold text-center text-white uppercase']");
-    public static final  Target MENSAJE_ROJO =Target.the("Mensaje de error")
-            .locatedBy("//*[@ class='bg-red-800 mb-3 p-3 rounded-md font-bold text-center text-white uppercase']");
-
 }
