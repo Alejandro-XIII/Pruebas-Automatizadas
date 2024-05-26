@@ -44,7 +44,7 @@ public class HomePage extends PageObject {
     public static final  Target MED_OPTION =Target.the("Option de Medellín")
             .locatedBy("//*[@ value='AEP']");
     public static final  Target ELIMINAR_VUELO =Target.the("botón para eliminar vuelo")
-            .locatedBy("//html[1]/body[1]/div[1]/div[3]/table[1]/tbody[1]/tr[9]/td[4]/button[1]");
+            .locatedBy("//*[@ class='text-red-500']");
     //Buscar
     public static final  Target USER_ADMIN =Target.the("Verifica usuario administrador")
             .locatedBy("//*[@ class = 'font-semibold text-xl']");

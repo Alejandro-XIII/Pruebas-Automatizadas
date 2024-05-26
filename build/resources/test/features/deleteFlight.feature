@@ -1,5 +1,7 @@
-#author:
-  #information
+# Authors:
+# - Diego Alejandro Castañeda Ossa
+# - Jose Carlos Ortiz Padilla
+# - Weimar Darío Quintero Calle
 
 Feature: Delete flight
   As an airline administrator, I need the option to delete the flight

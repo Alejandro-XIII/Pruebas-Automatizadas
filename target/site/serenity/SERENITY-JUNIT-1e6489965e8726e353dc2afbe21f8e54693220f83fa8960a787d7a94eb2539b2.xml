@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Create a direct flight." skipped="0" tests="2" time="8.0" timestamp="2024-05-25 07:02:50"><testcase name="Form loading successful"/><testcase name="Form submission"/></testsuite>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Create a direct flight." skipped="0" tests="2" time="6.93" timestamp="2024-05-26 05:37:08"><testcase name="Form loading successful"/><testcase name="Form submission"/></testsuite>

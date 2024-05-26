@@ -1,9 +1,7 @@
 package co.com.udea.certificacion.gestion.stepdefinitions;
 
 import co.com.udea.certificacion.gestion.questions.ValidationAdminSession;
-import co.com.udea.certificacion.gestion.questions.ValidationMessage;
-import co.com.udea.certificacion.gestion.tasks.OpenFlights;
-import co.com.udea.certificacion.gestion.tasks.OpenNew;
+import co.com.udea.certificacion.gestion.tasks.DeleteFlights;
 import co.com.udea.certificacion.gestion.tasks.OpenThe;
 import co.com.udea.certificacion.gestion.userinterfaces.HomePage;
 import co.com.udea.certificacion.gestion.utils.Constants2;
@@ -44,7 +42,7 @@ public class deleteFlightStepDefinition {
     @When("Selects the option to delete the flight")
     public void selectsTheOptionToDeleteTheFlight() {
         // Seleccionar ver vuelos y eliminar un vuelo
-        admin.attemptsTo(OpenFlights.delete());
+        admin.attemptsTo(DeleteFlights.delete());
     }
     @Then("The system displays a message to the user indicating successful deletion")
     public void theSystemDisplaysAMessageToTheUserIndicatingSuccessfulDeletion() {

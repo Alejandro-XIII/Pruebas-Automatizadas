@@ -1,6 +1,8 @@
 package co.com.udea.certificacion.gestion.stepdefinitions;
 
 import co.com.udea.certificacion.gestion.questions.ValidationAdminSession;
+import co.com.udea.certificacion.gestion.questions.ValidationUploadForm;
+import co.com.udea.certificacion.gestion.tasks.OpenFlights;
 import co.com.udea.certificacion.gestion.tasks.OpenThe;
 import co.com.udea.certificacion.gestion.userinterfaces.HomePage;
 import co.com.udea.certificacion.gestion.utils.Constants2;
@@ -40,12 +42,12 @@ public class checkDetailsStepDefinition {
     }
     @When("Selects the option for details of one of the created flights.")
     public void selectsTheOptionForDetailsOfOneOfTheCreatedFlights() {
-        // Write code here that turns the phrase above into concrete actions
-        //TODO
+        // Seleccionar ver vuelos
+        admin.attemptsTo(OpenFlights.open());
+        //TODO no hay maneraa de probar el "Ver mas"
     }
     @Then("A page is loaded displaying all the information of the selected flight.")
     public void aPageIsLoadedDisplayingAllTheInformationOfTheSelectedFlight() {
-        // Write code here that turns the phrase above into concrete actions
-        //TODO
+        //TODO no hay funcionalidad
     }
 }

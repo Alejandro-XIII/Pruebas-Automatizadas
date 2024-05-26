@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Check all flights." tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-26T20:22:49" hostname="DESKTOP-B7230DH" time="8.827">
+<testsuite name="Check all flights." tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-26T22:48:01" hostname="DESKTOP-B7230DH" time="7.567">
   <properties/>
-  <testcase name="Successful flight table visualization" classname="Check all flights." time="8.827"/>
+  <testcase name="Successful flight table visualization" classname="Check all flights." time="7.567"/>
   <system-out><![CDATA[
-Scenario: Successful flight table visualization                              ?[90m# src/test/resources/features/checkFlights.feature:9?[0m
+Scenario: Successful flight table visualization                              ?[90m# src/test/resources/features/checkFlights.feature:11?[0m
   ?[32mGiven ?[0m?[32mThe user is logged in with the role of airline administrator?[0m         ?[90m# co.com.udea.certificacion.gestion.stepdefinitions.checkFlightsStepDefinition.theUserIsLogged()?[0m
   ?[32mWhen ?[0m?[32mselects the option to view all flights?[0m                                ?[90m# co.com.udea.certificacion.gestion.stepdefinitions.checkFlightsStepDefinition.selectsTheOptionToViewAllFlights()?[0m
   ?[32mThen ?[0m?[32mThe table is loaded with all the created flights and their basic data?[0m ?[90m# co.com.udea.certificacion.gestion.stepdefinitions.checkFlightsStepDefinition.theTableIsLoadedWithAllTheCreatedFlightsAndTheirBasicData()?[0m
@@ -21,13 +21,17 @@ Successful flight table visualization(check-all-flights.;successful-flight-table
 [Test worker] INFO  - ?[92m|------ Paula opens the Home page?[0m
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Starting Chrome driver instance with capabilities:
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [remote-allow-origins=*, --start-maximized,--lang=es...], extensions: []}}
-may. 26, 2024 3:22:52 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+may. 26, 2024 5:48:04 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 125
-may. 26, 2024 3:22:52 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+may. 26, 2024 5:48:04 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 125.0.6422.112. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 [Test worker] INFO  - ?[92m|---- Then validation admin session should be a string containing 'Paula'?[0m
 [Test worker] INFO  - ?[92m|-- When selects the option to view all flights?[0m
+[Test worker] INFO  - ?[92m|---- Paula open flights?[0m
+[Test worker] INFO  - ?[92m|------ Paula click open flights?[0m
+[Test worker] INFO  - ?[92m|-------- Paula clicks on botÃ³n para ver los vuelos?[0m
 [Test worker] INFO  - ?[92m|-- Then The table is loaded with all the created flights and their basic data?[0m
+[Test worker] INFO  - ?[92m|---- Then validation upload form should be a string containing 'Ver Vuelos'?[0m
 [Test worker] INFO  - ?[92m
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 

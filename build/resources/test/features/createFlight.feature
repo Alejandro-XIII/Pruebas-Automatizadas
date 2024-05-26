@@ -1,5 +1,7 @@
-#author:
-  #information
+# Authors:
+# - Diego Alejandro Castañeda Ossa
+# - Jose Carlos Ortiz Padilla
+# - Weimar Darío Quintero Calle
 
 Feature: Create a direct flight.
   As an airline administrator user, I need to load a form requesting the mandatory

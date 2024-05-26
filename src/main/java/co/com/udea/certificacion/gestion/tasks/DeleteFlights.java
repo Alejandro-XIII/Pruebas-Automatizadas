@@ -6,13 +6,14 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 
-public class OpenFlights implements Task {
+public class DeleteFlights implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(ClickOpenFlights.inButton());
+        actor.attemptsTo(ClickDeleteFlights.inButton());
     }
 
-    public static OpenFlights open(){
-        return Tasks.instrumented(OpenFlights.class);
+    public static DeleteFlights delete(){
+        return Tasks.instrumented(DeleteFlights.class);
     }
 }

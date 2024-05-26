@@ -1,5 +1,7 @@
-#author:
-  #information
+# Authors:
+# - Diego Alejandro Castañeda Ossa
+# - Jose Carlos Ortiz Padilla
+# - Weimar Darío Quintero Calle
 
 Feature: Check all flights.
   As an airline administrator user I need a table that lists

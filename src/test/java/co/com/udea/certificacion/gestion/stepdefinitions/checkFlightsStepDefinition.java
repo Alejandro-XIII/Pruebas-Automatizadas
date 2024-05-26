@@ -1,6 +1,9 @@
 package co.com.udea.certificacion.gestion.stepdefinitions;
 
 import co.com.udea.certificacion.gestion.questions.ValidationAdminSession;
+import co.com.udea.certificacion.gestion.questions.ValidationUploadForm;
+import co.com.udea.certificacion.gestion.tasks.DeleteFlights;
+import co.com.udea.certificacion.gestion.tasks.OpenFlights;
 import co.com.udea.certificacion.gestion.tasks.OpenThe;
 import co.com.udea.certificacion.gestion.userinterfaces.HomePage;
 import co.com.udea.certificacion.gestion.utils.Constants2;
@@ -41,10 +44,13 @@ public class checkFlightsStepDefinition {
     }
     @When("selects the option to view all flights")
     public void selectsTheOptionToViewAllFlights() {
-        // Write code here that turns the phrase above into concrete actions
+        // Seleccionar ver vuelos
+        admin.attemptsTo(OpenFlights.open());
     }
     @Then("The table is loaded with all the created flights and their basic data")
     public void theTableIsLoadedWithAllTheCreatedFlightsAndTheirBasicData() {
-        // Write code here that turns the phrase above into concrete actions
+        //Valida que se cargó la página de vuelos
+        GivenWhenThen.givenThat(admin).should(GivenWhenThen.seeThat(ValidationUploadForm
+                .validarFormulario(), Matchers.containsString(Constants2.VER_VUELOS)));
     }
 }

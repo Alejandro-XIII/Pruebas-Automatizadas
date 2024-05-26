@@ -1,1 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Delete flight" skipped="0" tests="1" time="8.63" timestamp="2024-05-25 07:03:22"><testcase name="Flight deletion successful"/></testsuite>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Delete flight" skipped="0" tests="1" time="6.54" timestamp="2024-05-26 05:33:22"><testcase name="Flight deletion successful"><failure message="Expected condition failed: waiting for By.xpath: //*[@ class='text-red-500'] to be present (tried for 8 second(s) with 100 milliseconds interval)&#10;Build info: version: '4.16.1', revision: '9b4c83354e'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException">Expected condition failed: waiting for By.xpath: //*[@ class='text-red-500'] to be present (tried for 8 second(s) with 100 milliseconds interval)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: driver.version: unknown</failure><system-err>Expected condition failed: waiting for By.xpath: //*[@ class='text-red-500'] to be present (tried for 8 second(s) with 100 milliseconds interval)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: driver.version: unknown&#13;
+co.com.udea.certificacion.gestion.interactions.ClickDeleteFlights.performAs(ClickDeleteFlights.java:14)&#13;
+co.com.udea.certificacion.gestion.tasks.DeleteFlights.performAs(DeleteFlights.java:13)&#13;
+co.com.udea.certificacion.gestion.stepdefinitions.deleteFlightStepDefinition.selectsTheOptionToDeleteTheFlight(deleteFlightStepDefinition.java:45)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
+</system-err></testcase></testsuite>

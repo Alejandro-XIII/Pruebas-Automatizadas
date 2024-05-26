@@ -7,13 +7,17 @@ import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 import org.openqa.selenium.Keys;
 
+import java.util.Random;
+
 import static co.com.udea.certificacion.gestion.userinterfaces.HomePage.*;
 
 public class FillOutForm implements Interaction {
+    Random random = new Random();
 
     @Override
     public <T extends Actor> void performAs(T actor) {
-        actor.attemptsTo(Enter.theValue("SA-7986").into(TEXT_N_VUELO));
+        String vuelo = "SA-"+ (random.nextInt(9000) + 1000);
+        actor.attemptsTo(Enter.theValue(vuelo).into(TEXT_N_VUELO));
         actor.attemptsTo(Click.on(VUELO_INTERNACIONAL_INPUT));
         actor.attemptsTo(Click.on(VUELO_NACIONAL_INPUT));
         actor.attemptsTo(Click.on(ORIGEN_SELECT));

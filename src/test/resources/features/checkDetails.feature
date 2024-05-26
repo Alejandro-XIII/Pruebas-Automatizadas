@@ -1,5 +1,7 @@
-#author:
-  #information
+# Authors:
+# - Diego Alejandro Castañeda Ossa
+# - Jose Carlos Ortiz Padilla
+# - Weimar Darío Quintero Calle
 
 Feature: Check Flight Details.
   As an airline administrator, I need there to be a view details
