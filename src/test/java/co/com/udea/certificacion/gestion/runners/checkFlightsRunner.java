@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         features = "src/test/resources/features/checkFlights.feature",
-        glue = "co.com.udea.certificacion.autenticacion.stepdefinitions",
+        glue = "co.com.udea.certificacion.gestion.stepdefinitions",
         snippets = CucumberOptions.SnippetType.CAMELCASE,
         plugin = "pretty"
 )
